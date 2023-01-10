@@ -9,7 +9,7 @@ object Hamming {
             val leftStrandArray = leftStrand.toCharArray()
 
             leftStrandArray.forEachIndexed{ index, _ ->
-                if (leftStrandArray[index] == rightStrandArray[index]) hammingDistance++
+                if (leftStrandArray[index] != rightStrandArray[index]) hammingDistance++
             }
         }
         return hammingDistance
