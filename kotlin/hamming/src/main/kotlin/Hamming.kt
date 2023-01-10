@@ -2,7 +2,6 @@ object Hamming {
 
     fun compute(leftStrand: String, rightStrand: String): Int {
         var hammingDistance = 0
-        var strandLength = leftStrand.length
 
         if (leftStrand.length == rightStrand.length){
             val rightStrandArray = rightStrand.toCharArray()
@@ -11,6 +10,8 @@ object Hamming {
             leftStrandArray.forEachIndexed{ index, _ ->
                 if (leftStrandArray[index] != rightStrandArray[index]) hammingDistance++
             }
+        }else{
+            throw IllegalArgumentException("left and right strands must be of equal length")
         }
         return hammingDistance
     }
