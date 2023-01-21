@@ -6,8 +6,7 @@ This repository contains solutions to various Kotlin problems from [Exercism](ht
 
 To get started, simply clone this repository to your local machine:
 
-
-
+`git clone https://github.com/GreatGrant/Exercism.git`
 
 You can then navigate to the directory of the problem you want to run and follow the instructions in the README file.
 
