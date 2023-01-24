@@ -10,20 +10,20 @@ object ScrabbleScore {
         10 to listOf('Q', 'Z')
     )
 
-    fun scoreLetter(c: Char): Int {
-        for (score in letterValues.keys){
-            if(c.toUppercase() in letterValues[score]){
+   fun scoreLetter(c: Char): Int {
+        for (score in letterValues.keys) {
+            if (c.uppercaseChar() in letterValues[score]!!) {
                 return score
             }
         }
-
+        return 0
     }
 
     fun scoreWord(word: String): Int {
         var score = 0
-        for(c in word.toUppercase())
+        for(c in word.uppercase())
             score += scoreLetter(c)
-        }
+    
     return score
     }
 }
