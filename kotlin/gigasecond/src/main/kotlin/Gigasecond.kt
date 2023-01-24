@@ -5,5 +5,5 @@ class Gigasecond (var localDate: LocalDateTime){
     // TODO: Implement proper constructor
     constructor(localDate: LocalDate) : this(localDate.atStartOfDay())
 
-    val date: LocalDateTime = localDate.plusSeconds(1_000_000_000)
+    val date: LocalDateTime = localDate.plus(java.time.Duration.ofSeconds(1000000000))
 }

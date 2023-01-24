@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GigasecondTest" tests="5" skipped="4" failures="0" errors="0" timestamp="2023-01-11T10:00:02" hostname="DESKTOP-IE68RNB" time="0.051">
+<testsuite name="GigasecondTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-24T11:39:30" hostname="DESKTOP-ISLJ6U3" time="0.041">
   <properties/>
-  <testcase name="full time specified" classname="GigasecondTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="date only specification of time" classname="GigasecondTest" time="0.049"/>
-  <testcase name="full time with day roll-over" classname="GigasecondTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="second test for date only specification of time" classname="GigasecondTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="third test for date only specification of time" classname="GigasecondTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="full time specified" classname="GigasecondTest" time="0.035"/>
+  <testcase name="date only specification of time" classname="GigasecondTest" time="0.001"/>
+  <testcase name="full time with day roll-over" classname="GigasecondTest" time="0.001"/>
+  <testcase name="second test for date only specification of time" classname="GigasecondTest" time="0.001"/>
+  <testcase name="third test for date only specification of time" classname="GigasecondTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
