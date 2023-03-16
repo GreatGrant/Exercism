@@ -1,6 +1,10 @@
+import java.util.*
+
 object Pangram {
 
-    fun isPangram(input: String): Boolean {
-        TODO("Implement this function to complete the task")
-    }
+    private val pangram = ('a'..'z').toSet()
+    fun isPangram(input: String) = input
+        .lowercase(Locale.getDefault())
+        .filter { it in pangram }
+        .toSet() == pangram
 }
