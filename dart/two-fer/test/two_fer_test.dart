@@ -4,7 +4,7 @@ import 'package:two_fer/two_fer.dart';
 void main() {
   group('TwoFer', () {
     test('no name given', () {
-      final result = twoFer();
+      final result = twoFer("");
       expect(result, equals('One for you, one for me.'));
     }, skip: false);
 
